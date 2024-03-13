@@ -11,17 +11,17 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+    padding: 24px 0;in
 }
 
 .cabecalho-imagem{
-    width: 10%;
-}
+    width: 20%;
+}in
 
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .escola-imagem{
@@ -41,9 +41,11 @@ body {
     width: 35%;
 }
 
-
 .escola-titulo{
     padding: 24px 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
 }
 
 .estudante{
@@ -63,3 +65,21 @@ body {
     padding: 16px 0;
 }
 
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
